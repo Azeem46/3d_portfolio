@@ -1,9 +1,7 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -15,12 +13,10 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
     sass,
-    snapgram,
-    summiz,
+    reddit,
     tailwindcss,
     threads,
     typescript
@@ -190,6 +186,13 @@ export const projects = [
         name: 'Full Stack Threads Clone',
         description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
         link: 'https://thread-app-nu.vercel.app/',
+    },
+    {
+        iconUrl: reddit,
+        theme: 'btn-back-green',
+        name: 'Full Stack Reddit Clone',
+        description: 'Created a full-stack replica of the popular discussion platform "Reddit," enabling users to post and engage in subreddits.',
+        link: 'https://ideashare-dusky.vercel.app/',
     },
    
 ];
