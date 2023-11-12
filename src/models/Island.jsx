@@ -46,12 +46,12 @@ import islandScene from "../assets/3d/island.glb";
   const handleKeyDown = (e) => {
     if(e.key === 'ArrowLeft') {
       if(!isRotating) setIsRotating(true);
-      islandRef.current.rotation.y += 0.01 * Math.PI;
-      rotationSpeed.current = 0.0125;
+      islandRef.current.rotation.y += 0.005 * Math.PI; //0.1
+      rotationSpeed.current = 0.007; //0.0125
     } else if(e.key === 'ArrowRight') {
       if(!isRotating) setIsRotating(true);
-      islandRef.current.rotation.y -=0.01 * Math.PI;
-      rotationSpeed.current = -0.0125;
+      islandRef.current.rotation.y -=0.005 * Math.PI; //0.1
+      rotationSpeed.current = -0.007; // 0.0125
     }
   }
   const handleKeyUp = (e) => {
