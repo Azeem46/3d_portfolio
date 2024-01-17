@@ -39,6 +39,9 @@ const About = () => {
                 <p>
                 "Took the lead on multiple projects from start to finish, showing I can work on my own. I'm not just hardworking; I can also make things happen."
                 </p>
+                <p>
+                  Below is demo work
+                </p>
                 </div>
                 <div className="mt-12 flex">
                   <VerticalTimeline>
